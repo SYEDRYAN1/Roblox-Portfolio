@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#09090b" />
+
+    <title>Ryan's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="page-shell">
+      <nav class="social-links" aria-label="Social media">
+        <a class="social-link social-link--twitter" href="https://x.com/RyanTheUnique" target="_blank" rel="noopener noreferrer" aria-label="Twitter on X" title="Twitter">
+          <span class="social-label" aria-hidden="true">Twitter</span>
+          <span class="social-icon" aria-hidden="true"></span>
+        </a>
+        <a class="social-link social-link--discord" href="https://discord.com/users/1304792728567287810" target="_blank" rel="noopener noreferrer" aria-label="Discord" title="Discord">
+          <span class="social-label" aria-hidden="true">Discord</span>
+          <span class="social-icon" aria-hidden="true"></span>
+        </a>
+        <a class="social-link social-link--instagram" href="https://www.instagram.com/lb.yts/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+          <span class="social-label" aria-hidden="true">Instagram</span>
+          <span class="social-icon" aria-hidden="true"></span>
+        </a>
+        <a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/ryan-mustafa-syed-062211340" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+          <span class="social-label" aria-hidden="true">LinkedIn</span>
+          <span class="social-icon" aria-hidden="true"></span>
+        </a>
+      </nav>
+
+      <header class="topbar">
+        <nav class="nav-links" aria-label="Main navigation">
+          <a class="dock-link" href="#about" aria-label="About" data-tooltip="About">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 21v-2a7 7 0 0 1 14 0v2z"/></svg>
+          </a>
+          <a class="dock-link" href="#scripting-work" aria-label="Scripting" data-tooltip="Scripting">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5-7 7 7 7M16 5l7 7-7 7M14 3l-4 18"/></svg>
+          </a>
+          <a class="dock-link" href="#ui-work" aria-label="UI Design" data-tooltip="UI Design">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="5" rx="1.5"/><rect x="13" y="10" width="8" height="11" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/></svg>
+          </a>
+          <a class="dock-link dock-link--pricing" href="#pricing" aria-label="Pricing" data-tooltip="Pricing">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 6.5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </a>
+          <a class="dock-link" href="#terms" aria-label="Terms of Service" data-tooltip="Terms">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3.5h7l4 4V20a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4.5a1 1 0 0 1 1-1Z"/><path d="M14 3.5v5h5M9 13h6m-6 4h6"/></svg>
+          </a>
+          <button
+            class="theme-toggle dock-link"
+            type="button"
+            aria-label="Switch to light theme"
+            data-tooltip="Toggle theme"
+          >
+            <svg class="theme-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+            <svg class="theme-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"/></svg>
+          </button>
+        </nav>
+      </header>
+
+      <!-- MAIN CONTENT -->
+      <main id="home">
+
+        <!-- HERO / ABOUT -->
+        <section
+          class="hero"
+          id="about"
+          aria-label="Profile and introduction"
+        >
+          <div class="profile-card" aria-label="Profile picture">
+            <div class="profile-image-wrap">
+              <img
+                class="profile-image"
+                src="WebsiteImages/profile.svg"
+              />
+            </div>
+          </div>
+
+          <div class="intro-card">
+            <div class="window-bar" aria-hidden="true">
+              <p>about.lua</p>
+            </div>
+
+<div
+  class="code-content"
+  aria-label="About me code-style introduction"
+>
+  <p>
+    <span class="code-purple">local</span>
+    <span class="code-blue">name</span> =
+    <span class="code-green">"Ryan Mustafa Syed"</span>,
+  </p>
+
+  <p>
+    <span class="code-purple">local</span>
+    <span class="code-blue">age</span> =
+    <span class="code-green">19</span>,
+  </p>
+
+  <p>
+    <span class="code-purple">local</span>
+    <span class="code-blue">country</span> =
+    <span class="code-green">"India"</span>,
+  </p>
+
+  <p>
+    <span class="code-purple">local</span>
+    <span class="code-blue">education</span> =
+    <span class="code-green">"3rd Year Computer Science Student"</span>,
+  </p>
+
+  <p>
+    <span class="code-purple">local</span>
+    <span class="code-blue">experience</span> = {
+  </p>
+
+  <p class="indent">
+    <span class="code-green">"6+ Years Scripting"</span>,
+  </p>
+
+  <p class="indent">
+    <span class="code-green">"4+ Years UI Design"</span>,
+  </p>
+
+  <p>},</p>
+
+</div>
+          </div>
+        </section>
+
+        <!-- WORK NAVIGATION -->
+        <section
+          class="work-links"
+          aria-label="Explore my work"
+        >
+          <a
+            class="work-button scripting-button"
+            href="#scripting-work"
+          >
+            <span class="button-icon code-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="m8 5-7 7 7 7M16 5l7 7-7 7M14 3l-4 18"/></svg>
+            </span>
+
+            <span>
+              <strong>Scripting</strong>
+            </span>
+          </a>
+
+          <a
+            class="work-button ui-button"
+            href="#ui-work"
+          >
+            <span class="button-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="5" rx="1.5"/><rect x="13" y="10" width="8" height="11" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/></svg>
+            </span>
+
+            <span>
+              <strong>UI Design</strong>
+            </span>
+          </a>
+        </section>
+
+        <!-- SCRIPTING SHOWCASE -->
+        <section
+          class="projects"
+          id="scripting-work"
+          aria-labelledby="scripting-title"
+        >
+          <div class="section-heading">
+            <h1 id="scripting-title">Scripting</h1>
+          </div>
+
+          <div class="scripting-showcase">
+            <h2 class="showcase-heading">Video Showcase</h2>
+            <div class="scripting-carousel" aria-label="Scripting video slideshow">
+              <div class="scripting-wheel-stage">
+                <article class="scripting-wheel-card" data-position="-2">
+                  <span class="scripting-video-number">1st One</span>
+                  <video autoplay muted playsinline preload="auto" aria-label="1st scripting showcase"></video>
+                </article>
+                <article class="scripting-wheel-card" data-position="-1">
+                  <span class="scripting-video-number">2nd One</span>
+                  <video autoplay muted playsinline preload="auto" aria-label="2nd scripting showcase"></video>
+                </article>
+                <article class="scripting-wheel-card" data-position="0">
+                  <span class="scripting-video-number">3rd One</span>
+                  <video autoplay muted playsinline preload="auto" aria-label="3rd scripting showcase"></video>
+                </article>
+                <article class="scripting-wheel-card" data-position="1">
+                  <span class="scripting-video-number">4th One</span>
+                  <video autoplay muted playsinline preload="auto" aria-label="4th scripting showcase"></video>
+                </article>
+                <article class="scripting-wheel-card" data-position="2">
+                  <span class="scripting-video-number">5th One</span>
+                  <video autoplay muted playsinline preload="auto" aria-label="5th scripting showcase"></video>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="scripting-showcase scripting-projects">
+            <h2 class="showcase-heading">Game Showcase</h2>
+            <div class="scripting-project-grid">
+              <article class="scripting-project-card">
+                <a
+                  class="scripting-project-image"
+                  href="https://www.roblox.com/games/97217694997013/Human-Shawarma"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Play Human Shawarma on Roblox"
+                >
+                  <img
+                    src="WebsiteImages/RobloxGameIcon/HumanShawarma.webp"
+                    alt="Human Shawarma game icon"
+                    loading="lazy"
+                  />
+                </a>
+                <div class="scripting-project-info">
+                  <h3>Human Shawarma</h3>
+                </div>
+              </article>
+              <article class="scripting-project-card">
+                <a
+                  class="scripting-project-image"
+                  href="https://www.roblox.com/games/127713588513091/Snowman-Defender"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Play Snowman Defender on Roblox"
+                >
+                  <img
+                    src="WebsiteImages/RobloxGameIcon/SnowmanDefender.png"
+                    alt="Snowman Defender game icon"
+                    loading="lazy"
+                  />
+                </a>
+                <div class="scripting-project-info">
+                  <h3>Snowman Defender</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- UI DESIGN PROJECTS -->
+        <section
+          class="projects"
+          id="ui-work"
+          aria-labelledby="ui-title"
+        >
+          <div class="section-heading">
+            <h1>UI Design</h1>
+          </div>
+
+          <div class="ui-carousel" aria-label="Roblox UI design slideshow">
+            <div class="ui-wheel-stage" aria-hidden="true">
+              <img class="ui-wheel-card" data-position="-2" alt="" />
+              <img class="ui-wheel-card" data-position="-1" alt="" />
+              <img class="ui-wheel-card" data-position="0" alt="" />
+              <img class="ui-wheel-card" data-position="1" alt="" />
+              <img class="ui-wheel-card" data-position="2" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+          <div class="section-heading">
+            <h1>Pricing</h1>
+          </div>
+          <div class="pricing-grid">
+            <article class="pricing-card pricing-closed">
+              <span class="pricing-label">UI Work</span>
+              <span class="red-closed-label">Currently closed</span>
+            </article>
+            <article class="pricing-card">
+              <span class="pricing-label">Scripting Standard System</span>
+              <h2>10,000–50,000 <small>Robux</small></h2>
+              <p>Final pricing depends on the system's complexity and scope.</p>
+              <ul class="pricing-features">
+                <li>Complete system delivery</li>
+                <li>Server-validated logic</li>
+                <li>Revisions included</li>
+                <li>Clean documentation</li>
+              </ul>
+            </article>
+            <article class="pricing-card pricing-featured">
+              <span class="pricing-label">Scripting Full Experience</span>
+              <h2>150,000+ <small>Robux</small></h2>
+              <p>Full-game projects start at this price; the final quote depends on the requirements.</p>
+              <ul class="pricing-features">
+                <li>End-to-end game build</li>
+                <li>Ongoing retainer option</li>
+                <li>Framework and tooling</li>
+                <li>Architecture designed for optimal performance</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="tools-section" id="tools" aria-labelledby="tools-title">
+          <div class="section-heading">
+            <h1 id="tools-title">Tools Used</h1>
+          </div>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <img class="tool-logo" src="WebsiteImages/ToolsUsedIcon/Discord.svg" alt="" width="84" height="84" loading="lazy">
+              <span>Discord</span>
+            </div>
+            <div class="tool-item">
+              <img class="tool-logo" src="WebsiteImages/ToolsUsedIcon/Notion.svg" alt="" width="84" height="84" loading="lazy">
+              <span>Notion</span>
+            </div>
+            <div class="tool-item">
+              <img class="tool-logo" src="WebsiteImages/ToolsUsedIcon/RobloxStudio.svg" alt="" width="84" height="84" loading="lazy">
+              <span>Roblox Studio</span>
+            </div>
+            <div class="tool-item">
+              <img class="tool-logo" src="WebsiteImages/ToolsUsedIcon/Figma.svg" alt="" width="84" height="84" loading="lazy">
+              <span>Figma</span>
+            </div>
+            <div class="tool-item">
+              <img class="tool-logo" src="WebsiteImages/ToolsUsedIcon/Rojo.svg" alt="" width="84" height="84" loading="lazy">
+              <span>Rojo</span>
+            </div>
+            <div class="tool-item">
+              <img class="tool-logo" src="WebsiteImages/ToolsUsedIcon/Github.svg" alt="" width="84" height="84" loading="lazy">
+              <span>Git + GitHub</span>
+            </div>
+            <div class="tool-item">
+              <img class="tool-logo" src="WebsiteImages/ToolsUsedIcon/VisualStudioCode.svg" alt="" width="84" height="84" loading="lazy">
+              <span>Visual Studio Code</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="terms" id="terms" aria-labelledby="terms-title">
+          <div class="section-heading">
+            <h1 id="terms-title">Terms of Service</h1>
+            <p class="terms-intro">These terms apply to commissioned work.</p>
+          </div>
+          <div class="terms-grid">
+            <article class="term-card">
+              <h2><span>1</span>Payment</h2>
+              <p>A 10% upfront payment is required before work begins. An additional 30% is due when the project reaches the halfway point, and the remaining 60% is due upon completion of the work.</p>
+            </article>
+            <article class="term-card">
+              <h2><span>2</span>Revisions</h2>
+              <p>Small-scale revisions are allowed. Medium or complete rewrites are not included. The system design is expected to be finalized when an order begins.</p>
+            </article>
+            <article class="term-card">
+              <h2><span>3</span>Delivery</h2>
+              <p>Estimated delivery times will be provided after discussing project scope. Delays may occur for complex projects or during high-demand periods.</p>
+            </article>
+            <article class="term-card">
+              <h2><span>4</span>Refunds</h2>
+              <p>Refunds are available only if work has not yet begun. Once development starts, refunds are not available.</p>
+            </article>
+            <article class="term-card">
+              <h2><span>5</span>Ownership</h2>
+              <p>Upon full payment, you receive ownership of the delivered code. I may showcase the work in my portfolio unless otherwise agreed.</p>
+            </article>
+            <article class="term-card">
+              <h2><span>6</span>Communication</h2>
+              <p>Primary communication is through Discord. Please allow 12-36 hours for responses.</p>
+            </article>
+            <article class="term-card">
+              <h2><span>7</span>Scope Changes</h2>
+              <p>Changes to project scope after work begins may affect pricing and delivery time. Significant changes will require a new quote.</p>
+            </article>
+            <article class="term-card">
+              <h2><span>8</span>Confidentiality</h2>
+              <p>Project details will be kept confidential unless permission to share is given. NDAs can be signed upon request.</p>
+            </article>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+<!--308-->
